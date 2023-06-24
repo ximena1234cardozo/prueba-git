@@ -27,8 +27,14 @@ public class Pruebas {
 		horaIngreso = tf.format(h);	
 		System.out.println("");
 		System.out.println("####################################################################################################################################################################################################");
-		System.out.println("#!!!!****** Si es la primera vez que se ejecuta el programa en este equipo, asegurese de digitar la ruta donde se creara la base de datos del mismo, en la Clase CONSTANTES RUTA_ARCHIVO******¡¡¡¡#");
-		System.out.println("####################################################################################################################################################################################################");
+		System.out.println("#!!!!****** Si es la primera vez que se ejecuta el programa en este equipo, asegurese de digitar la ruta donde se creara la base de datos del mismo, en la Clase CONSTANTES RUTA_ARCHIVO******ï¿½ï¿½ï¿½ï¿½#");
+		System.out.println("########################}}
+		
+		
+		
+		
+		
+		###################################################################################################################################################################");
 		System.out.println("");
 		operacion = Menu.menuOperaciones();
 		
@@ -62,7 +68,7 @@ public class Pruebas {
 				String iFact;
 				vehiculo = Bd.consultarBd(Constantes.RUTA_ARCHIVOS,Constantes.BASE_DATOS);
 				System.out.println(vehiculo);
-				System.out.println("¿Imprime Factura?. Digita 1 para si y 2 para no:\n 1 ==> Si\n 2 ==> No");
+				System.out.println("ï¿½Imprime Factura?. Digita 1 para si y 2 para no:\n 1 ==> Si\n 2 ==> No");
 				sel = s.nextInt();				
 				if (sel == 1) {	
 					
